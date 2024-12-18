@@ -16,23 +16,16 @@ public class Homework {
 
 
 
-        int[] array1 = {10, 20, 40, 40, 50};
-        int[] array2 = {2, 0, 5, 13, 0};
-
-        for (int i = 0; i < array1.length; i++) {
-            try {
-                int result = array1[i] / array2[i];
-                System.out.println(result);
-            } catch (ArithmeticException ae) {
-                System.out.println(array2[i] = 0);  //მასწავლებელს ვკითხო!  + "ნულზე გაყოფაა"  - შეცდომა გამოიტანა
-            }
-        }
-
-
-
-
-
-
-
+//        int[] array1 = {10, 20, 40, 40, 50};
+//        int[] array2 = {2, 0, 5, 13, 0};
+//
+//        for (int i = 0; i < array1.length; i++) {
+//            try {
+//                int result = array1[i] / array2[i];
+//                System.out.println(result);
+//            } catch (ArithmeticException ae) {
+//                System.out.println(array2[i] = 0);
+//            }
+//        }
     }
 }
