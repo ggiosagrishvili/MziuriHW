@@ -56,7 +56,7 @@ class ContactManager {
                             FileManager.saveToFile(contactList);
                             System.out.println("კონტაქტი წაშლილია ");
                         } catch (IOException e) {
-                            System.out.println("შეცდომა მონაცემების შენახვისას ");
+                            System.out.println("შეცდომა ");
                         }
                     } else {
                         System.out.println("არასწორი ნომერი ");
@@ -101,7 +101,7 @@ class ContactManager {
                             FileManager.saveToFile(contactList);
                             System.out.println("კონტაქტი განახლდა ");
                         } catch (IOException e) {
-                            System.out.println("შეცდომა მონაცემების შენახვისას ");
+                            System.out.println("შეცდომა ");
                         }
                     } else {
                         System.out.println("არასწორი ნომერი ");
